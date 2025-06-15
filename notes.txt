@@ -2,6 +2,8 @@ git init // für initialisieren der repository
 git add <file> // für stagging hinzufügen
 git commit -m "message der änderung" // um die Änderungen dauerhaft zu übernehmen
 git add . // (übernimmt den ganzen ordner)
+git remote add origin https://github.com/XbatzoX/Github-remote-repo-test.git // Verbindung zu Github herstellen
+git push -u origin master // das erste mal alles hochladen danach ohne -u
 git reset --soft HEAD~1  // Letzte Änderung von commit bereich zurück auf staged 
 git reset --hard HEAD~1  // Letzte Änderung wird komplett gelöscht
 git revert commitID // Angegebenen commit von Github rückgängig machen
