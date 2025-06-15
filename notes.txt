@@ -5,3 +5,6 @@ git add . // (übernimmt den ganzen ordner)
 git reset --soft HEAD~1  // Letzte Änderung von commit bereich zurück auf staged 
 git reset --hard HEAD~1  // Letzte Änderung wird komplett gelöscht
 git revert commitID // Angegebenen commit von Github rückgängig machen
+.gitignore // Datei in VS erstellen und dort Dateien angeben, die nicht auf Github sollen (.env)
+README.md // Readme datei erstellen in html
+LICENSE // MIT License ist frei verfügbar
