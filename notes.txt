@@ -2,3 +2,4 @@ git init // für initialisieren der repository
 git add <file> // für stagging hinzufügen
 git commit -m "message der änderung" // um die Änderungen dauerhaft zu übernehmen
 git add . // (übernimmt den ganzen ordner)
+git reset --soft HEAD~1  // Letzte Änderung von commit bereich zurück auf staged 
