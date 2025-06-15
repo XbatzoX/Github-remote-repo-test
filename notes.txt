@@ -1,4 +1,4 @@
-git init für den start
-git add <file> für stagging hinzufügen
-git commit -m "message der änderung" um die Änderungen dauerhaft zu übernehmen
-git add . (übernimmt den ganzen ordner)
+git init // für initialisieren der repository
+git add <file> // für stagging hinzufügen
+git commit -m "message der änderung" // um die Änderungen dauerhaft zu übernehmen
+git add . // (übernimmt den ganzen ordner)
